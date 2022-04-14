@@ -7,7 +7,10 @@
   font-style: normal;
   font-weight: 500;
   font-display: auto;
-  src: url(font/summernote.eot);
+  src: url(font/Lato-Black.ttf), url(font/Lato-BlackItalic.ttf), url(font/Lato-Bold.ttf), url(font/Lato-BoldItalic.ttf), url(font/Lato-Italic.ttf), url(font/Lato-LightItalic.ttf), url(font/Lato-Regular.ttf), url(font/Lato-Thin.ttf), url(font/Lato-ThinItalic.ttf);
+  src: url(font/NotoNaskhArabic-Bold.ttf), url(font/NotoNaskhArabic-Medium.ttf), url(font/NotoNaskhArabic-Regular.ttf), url(font/NotoNaskhArabic-SemiBold.ttf), url(font/NotoNaskhArabic-VariableFont_wght.ttf);
+  src: url(font/Roboto-Black.ttf), url(font/Roboto-BlackItalic.ttf), url(font/Roboto-Bold.ttf), url(font/Roboto-BoldItalic.ttf), url(font/Roboto-Italic.ttf), url(font/Roboto-Light.ttf), url(font/Roboto-Light.ttf), url(font/Roboto-LightItalic.ttf), url(font/Roboto-Medium.ttf), url(font/Roboto-MediumItalic.ttf), url(font/Roboto-Regular.ttf), url(font/Roboto-Thin.ttf), url(font/Roboto-ThinItalic.ttf);
+  src: url(font/Geeza\ Pro\ Regular.ttf);
   src: url(font/summernote.eot?#iefix) format("embedded-opentype"), url(font/summernote.woff2) format("woff2"), url(font/summernote.woff) format("woff"), url(font/summernote.ttf) format("truetype");
 }
 
