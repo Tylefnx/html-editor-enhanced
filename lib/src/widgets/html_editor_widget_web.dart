@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:html_editor_enhanced/html_editor.dart';
 import 'package:html_editor_enhanced/utils/utils.dart';
+import 'package:html_editor_enhanced/src/widgets/toolbar_widget.dart';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 import 'package:html_editor_enhanced/utils/shims/dart_ui.dart' as ui;
@@ -55,9 +56,6 @@ class _HtmlEditorWidgetWebState extends State<HtmlEditorWidget> {
   /// Helps get the height of the toolbar to accurately adjust the height of
   /// the editor when the keyboard is visible.
   GlobalKey toolbarKey = GlobalKey();
-
-  /// Tracks whether the editor was disabled onInit (to avoid re-disabling on reload)
-  bool alreadyDisabled = false;
 
   @override
   void initState() {
@@ -471,12 +469,7 @@ class _HtmlEditorWidgetWebState extends State<HtmlEditorWidget> {
       // ignore: unsafe_html, necessary to load HTML string
       ..srcdoc = htmlString
       ..style.border = 'none'
-      ..style.overflow = 'hidden'
       ..onLoad.listen((event) async {
-        if (widget.htmlEditorOptions.disabled && !alreadyDisabled) {
-          widget.controller.disable();
-          alreadyDisabled = true;
-        }
         if (widget.callbacks != null && widget.callbacks!.onInit != null) {
           widget.callbacks!.onInit!.call();
         }
@@ -497,10 +490,10 @@ class _HtmlEditorWidgetWebState extends State<HtmlEditorWidget> {
               data['view'] == createdViewId &&
               widget.htmlEditorOptions.autoAdjustHeight) {
             final docHeight = data['height'] ?? actualHeight;
-            if ((docHeight != null && docHeight != actualHeight) && mounted && docHeight > 0) {
+            if ((docHeight != null && docHeight != actualHeight) && mounted) {
               setState(mounted, this.setState, () {
-                  actualHeight =
-                      docHeight + (toolbarKey.currentContext?.size?.height ?? 0);
+                actualHeight =
+                    docHeight + (toolbarKey.currentContext?.size?.height ?? 0);
               });
             }
           }
