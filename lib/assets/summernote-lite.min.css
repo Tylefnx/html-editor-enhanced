@@ -3,9 +3,9 @@
 }
 
 @font-face {
-  font-family: summernote;
+  font-family: Lato, Geeza-Pro-Regular, NotoNaskhArabic, Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: auto;
   src: url(font/summernote.eot);
   src: url(font/summernote.eot?#iefix) format("embedded-opentype"), url(font/summernote.woff2) format("woff2"), url(font/summernote.woff) format("woff"), url(font/summernote.ttf) format("truetype");
@@ -14,7 +14,7 @@
 [class*=" note-icon"]:before,
 [class^=note-icon]:before {
   display: inline-block;
-  font-family: summernote;
+  font-family: Lato, Geeza-Pro-Regular, NotoNaskhArabic, Roboto;
   font-style: normal;
   font-size: inherit;
   text-decoration: inherit;
@@ -281,7 +281,7 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   color: #000;
-  font-family: sans-serif;
+  font-family: Lato, Geeza-Pro-Regular, NotoNaskhArabic, Roboto;
   border-radius: 4px;
 }
 
@@ -757,7 +757,7 @@ a.note-dropdown-item:hover {
 
 .note-tooltip-content {
   max-width: 200px;
-  font-family: sans-serif;
+  font-family: Lato, Geeza-Pro-Regular, NotoNaskhArabic, Roboto;
   padding: 3px 8px;
   color: #fff;
   text-align: center;
@@ -769,7 +769,7 @@ a.note-dropdown-item:hover {
   z-index: 1060;
   display: block;
   font-size: 13px;
-  font-family: sans-serif;
+  font-family: Lato, Geeza-Pro-Regular, NotoNaskhArabic, Roboto;
   display: none;
   background: #fff;
   border: 1px solid #ccc;
