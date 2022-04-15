@@ -3,6 +3,74 @@
 }
 
 @font-face {
+
+          font-family: 'Geeza-Pro';
+
+          font-style: normal;
+
+          font-weight: 400;
+
+          src: url(font/Geeza-Pro-Regular.ttf) format('truetype');
+
+          src: url(font/Geeza-Pro-Bold.ttf) format('truetype');
+
+      }
+
+
+
+      @font-face {
+
+          font-family: 'Lato';
+
+          font-style: normal;
+
+          font-weight: 400;
+
+          src: url(font/Lato-Regular.ttf) format("truetype");
+
+          src: url(font/Lato-Bold.ttf) format("truetype");
+
+      }
+
+
+
+      @font-face {
+
+          font-family: 'notonaskharabic';
+
+          font-style: normal;
+
+          font-weight: 400;
+
+          src: url(font/NotoNaskhArabic-Regular.ttf) format('truetype');
+
+          src: url(font/NotoNaskhArabic-Medium.ttf) format('truetype');
+
+          src: url(font/NotoNaskhArabic-SemiBold.ttf) format('truetype');
+
+          src: url(font/NotoNaskhArabic-Bold.ttf) format('truetype');
+
+      }
+
+
+
+      @font-face {
+
+          font-family: 'roboto';
+
+          font-style: normal;
+
+          font-weight: 400;
+
+          src: url(font/Roboto-Regular.ttf) format('truetype');
+
+          src: url(font/Roboto-Bold.ttf) format('truetype');
+
+          src: url(font/Roboto-Medium.ttf) format('truetype');
+
+      }
+
+@font-face {
   font-family: summernote;
   font-style: normal;
   font-weight: 400;
@@ -1477,101 +1545,126 @@ a.note-dropdown-item,a.note-dropdown-item:hover {
 
 }
 
-@font-face {
-          font-family: 'Geeza-Pro';
-          font-style: normal;
-          font-weight: 400;
-          src: url(font/Geeza-Pro-Regular.ttf) format('truetype');
-          src: url(font/Geeza-Pro-Bold.ttf) format('truetype');
-      }
-
-      @font-face {
-          font-family: 'Lato';
-          font-style: normal;
-          font-weight: 400;
-          src: url(font/Lato-Regular.ttf) format("truetype");
-          src: url(font/Lato-Bold.ttf) format("truetype");
-      }
-
-      @font-face {
-          font-family: 'notonaskharabic';
-          font-style: normal;
-          font-weight: 400;
-          src: url(font/NotoNaskhArabic-Regular.ttf) format('truetype');
-          src: url(font/NotoNaskhArabic-Medium.ttf) format('truetype');
-          src: url(font/NotoNaskhArabic-SemiBold.ttf) format('truetype');
-          src: url(font/NotoNaskhArabic-Bold.ttf) format('truetype');
-      }
-
-      @font-face {
-          font-family: 'roboto';
-          font-style: normal;
-          font-weight: 400;
-          src: url(font/Roboto-Regular.ttf) format('truetype');
-          src: url(font/Roboto-Bold.ttf) format('truetype');
-          src: url(font/Roboto-Medium.ttf) format('truetype');
-      }
-
-      .note-editor.note-airframe .note-editing-area .note-codable,
-      .note-editor.note-frame .note-editing-area .note-codable {
-          display: none;
-          width: 100%;
-          padding: 10px;
-          border: none;
-          box-shadow: none;
-          font-family: Lato, Geeza-Pro, Roboto, NotoNaskhArabic;
-          font-size: 14px;
-          color: #ccc;
-          background-color: #222;
-          resize: none;
-          outline: none;
-          -ms-box-sizing: border-box;
-          box-sizing: border-box;
-          border-radius: 0;
-          margin-bottom: 0;
-      }
-
-      .note-frame {
-          -ms-box-sizing: border-box;
-          box-sizing: border-box;
-          color: #000;
-          font-family: Lato;
-          border-radius: 4px;
-      }
-
-      .note-tooltip-content {
-          max-width: 200px;
-          font-family: Lato;
-          padding: 3px 8px;
-          color: #fff;
-          text-align: center;
-          background-color: #000;
-      }
-
-      .note-popover {
-          position: absolute;
-          z-index: 1060;
-          display: block;
-          font-size: 13px;
-          font-family: Lato;
-          display: none;
-          background: #fff;
-          border: 1px solid #ccc;
-      }
-
-      [class*=" note-icon"]:before,
-      [class^=note-icon]:before {
-          display: inline-block;
-          font-family: Lato;
-          font-style: normal;
-          font-size: inherit;
-          text-decoration: inherit;
-          text-rendering: auto;
-          text-transform: none;
-          vertical-align: middle;
-          -moz-osx-font-smoothing: grayscale;
-          -webkit-font-smoothing: antialiased;
-          speak: none;
+      .note-editor.note-airframe .note-editing-area .note-codable,
+
+      .note-editor.note-frame .note-editing-area .note-codable {
+
+          display: none;
+
+          width: 100%;
+
+          padding: 10px;
+
+          border: none;
+
+          box-shadow: none;
+
+          font-family: Lato, Geeza-Pro, Roboto, NotoNaskhArabic;
+
+          font-size: 14px;
+
+          color: #ccc;
+
+          background-color: #222;
+
+          resize: none;
+
+          outline: none;
+
+          -ms-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+          border-radius: 0;
+
+          margin-bottom: 0;
+
+      }
+
+
+
+      .note-frame {
+
+          -ms-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+          color: #000;
+
+          font-family: Lato;
+
+          border-radius: 4px;
+
+      }
+
+
+
+      .note-tooltip-content {
+
+          max-width: 200px;
+
+          font-family: Lato;
+
+          padding: 3px 8px;
+
+          color: #fff;
+
+          text-align: center;
+
+          background-color: #000;
+
+      }
+
+
+
+      .note-popover {
+
+          position: absolute;
+
+          z-index: 1060;
+
+          display: block;
+
+          font-size: 13px;
+
+          font-family: Lato;
+
+          display: none;
+
+          background: #fff;
+
+          border: 1px solid #ccc;
+
+      }
+
+
+
+      [class*=" note-icon"]:before,
+
+      [class^=note-icon]:before {
+
+          display: inline-block;
+
+          font-family: Lato;
+
+          font-style: normal;
+
+          font-size: inherit;
+
+          text-decoration: inherit;
+
+          text-rendering: auto;
+
+          text-transform: none;
+
+          vertical-align: middle;
+
+          -moz-osx-font-smoothing: grayscale;
+
+          -webkit-font-smoothing: antialiased;
+
+          speak: none;
+
       }
 
 
