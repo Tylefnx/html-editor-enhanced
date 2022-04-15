@@ -49,7 +49,20 @@ flutter:
     - packages/html_editor_enhanced/summernote-lite-dark.css
     - packages/html_editor_enhanced/summernote-lite.min.js
     - packages/html_editor_enhanced/jquery.min.js
-    - packages/html_editor_enhanced/assets/font/
+    - packages/html_editor_enhanced/assets/font/Geeza-Pro-Bold.ttf
+    - packages/html_editor_enhanced/assets/font/Geeza-Pro-Regular.ttf
+    - packages/html_editor_enhanced/assets/font/Lato-Bold.ttf
+    - packages/html_editor_enhanced/assets/font/Lato-Regular.ttf
+    - packages/html_editor_enhanced/assets/font/NotoNaskhArabic-Bold.ttf
+    - packages/html_editor_enhanced/assets/font/NotoNaskhArabic-Medium.ttf
+    - packages/html_editor_enhanced/assets/font/NotoNaskhArabic-Regular.ttf
+    - packages/html_editor_enhanced/assets/font/NotoNaskhArabic-SemiBold.ttf
+    - packages/html_editor_enhanced/assets/font/Roboto-Bold.ttf
+    - packages/html_editor_enhanced/assets/font/Roboto-Medium.ttf
+    - packages/html_editor_enhanced/assets/font/Roboto-Regular.ttf
+    - packages/html_editor_enhanced/assets/font/summernote.ttf
+    - packages/html_editor_enhanced/assets/font/summernote.woff
+    - packages/html_editor_enhanced/assets/font/summernote.woff2
     - packages/html_editor_enhanced/assets/plugins/summernote-at-mention/summernote-at-mention.js
   # This section identifies this Flutter project as a plugin project.
   # The 'pluginClass' and Android 'package' identifiers should not ordinarily
