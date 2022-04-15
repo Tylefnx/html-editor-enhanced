@@ -10,9 +10,9 @@
 
           font-weight: 400;
 
-          src: url(../lib/assets/font/Geeza-Pro-Regular.ttf) format('truetype');
+          src: url(font/Geeza-Pro-Regular.ttf) format('truetype');
 
-          src: url(../lib/assets/font/Geeza-Pro-Bold.ttf) format('truetype');
+          src: url(font/Geeza-Pro-Bold.ttf) format('truetype');
 
       }
 
@@ -26,9 +26,9 @@
 
           font-weight: 400;
 
-          src: url(../lib/assets/font/Lato-Regular.ttf) format("truetype");
+          src: url(font/Lato-Regular.ttf) format("truetype");
 
-          src: url(../lib/assets/font/Lato-Bold.ttf) format("truetype");
+          src: url(font/Lato-Bold.ttf) format("truetype");
 
       }
 
@@ -42,13 +42,13 @@
 
           font-weight: 400;
 
-          src: url(../lib/assets/font/NotoNaskhArabic-Regular.ttf) format('truetype');
+          src: url(font/NotoNaskhArabic-Regular.ttf) format('truetype');
 
-          src: url(../lib/assets/font/NotoNaskhArabic-Medium.ttf) format('truetype');
+          src: url(font/NotoNaskhArabic-Medium.ttf) format('truetype');
 
-          src: url(../lib/assets/font/NotoNaskhArabic-SemiBold.ttf) format('truetype');
+          src: url(font/NotoNaskhArabic-SemiBold.ttf) format('truetype');
 
-          src: url(../lib/assets/font/NotoNaskhArabic-Bold.ttf) format('truetype');
+          src: url(font/NotoNaskhArabic-Bold.ttf) format('truetype');
 
       }
 
@@ -62,11 +62,11 @@
 
           font-weight: 400;
 
-          src: url(../lib/assets/font/Roboto-Regular.ttf) format('truetype');
+          src: url(font/Roboto-Regular.ttf) format('truetype');
 
-          src: url(../lib/assets/font/Roboto-Bold.ttf) format('truetype');
+          src: url(font/Roboto-Bold.ttf) format('truetype');
 
-          src: url(../lib/assets/font/Roboto-Medium.ttf) format('truetype');
+          src: url(font/Roboto-Medium.ttf) format('truetype');
 
       }
 
