@@ -40,7 +40,7 @@
 
           font-weight: 400;
 
-          src: url(font/NotoNaskhArabic-Regular.ttf) format('truetype'), url(font/NotoNaskhArabic-Medium.ttf) format('truetype', url(font/NotoNaskhArabic-SemiBold.ttf) format('truetype'), url(font/NotoNaskhArabic-Bold.ttf) format('truetype');
+          src: url(font/NotoNaskhArabic-Regular.ttf) format('truetype'), url(font/NotoNaskhArabic-Medium.ttf) format('truetype'), url(font/NotoNaskhArabic-SemiBold.ttf) format('truetype'), url(font/NotoNaskhArabic-Bold.ttf) format('truetype');
 
       }
 
